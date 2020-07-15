@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    color: lightgreen;
+    font-family:helvetica;
+    
+}
+
+h3{
+    color: blue;
+    text-align: center;
+    font-family:helvetica;
+    
+}
+
+p{
+    color:red;
+    text-align: center;
+    font-family:helvetica;
+}
+
+#wrapper{ /*id is identified with a #*//*id is a unique identifier*/
+    border: 5px solid black;
+    border-radius:0.5px; /* use em not px */
+    text-align: center;
+    background-color:gray;
+    padding: 0.25em;
+    padding-bottom: 2em;
+    margin: 10px;
+}
+
+.one{ /*class is identified with a period*//*class is for multiple things*/
+    border: 1px solid black;
+    border-radius:0.5em;
+    background-color:lightgrey;
+    text-align: center;
+    display: inline-block; /*it will be in-line until it runs into the end of your browser*/
+    width: 32%;
+}
+
+
+
